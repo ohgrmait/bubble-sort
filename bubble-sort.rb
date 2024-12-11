@@ -13,11 +13,9 @@ def bubble_sort(array)
     end
     
     length = new_length
-    
+
     break if length <= 1
   end
 
   array
 end
-
-p bubble_sort([4,3,78,2,0,2])
